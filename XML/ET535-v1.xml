@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+      This XML contains the contents of an EARTHTIME tracer.
+
+      Copyright 2006-2008 EARTHTIME
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+
+      Website: www.earth-time.org
+
+      Created: 1.January.2008
+
+-->
+<Tracer xmlns="http://www.earth-time.org"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.earth-time.org
+                            http://www.earth-time.org/projects/upb/public_data/XSD/TracerXMLSchema.xsd">
+
+  <tracerName>ET535</tracerName>
+  <versionNumber>1</versionNumber>
+  <tracerType>mixed 205-233-235</tracerType>
+  <labName>EARTHTIME</labName>
+  <dateCertified>2008-01-01</dateCertified>
+  <ratios>
+    <ValueModel>
+      <name>r206_204t</name>
+      <value>3.7604</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.22</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r207_204t</name>
+      <value>3.04337973454192</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.22</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r208_204t</name>
+      <value>7.47549847921595</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.21</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r207_206t</name>
+      <value>0.809323405632891</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.16</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r206_208t</name>
+      <value>0.50303</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.13</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r206_205t</name>
+      <value>0.00034401</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.10</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r207_205t</name>
+      <value>0.000278415344771771</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.19</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r208_205t</name>
+      <value>0.00068387571317814</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.16</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r202_205t</name>
+      <value>0.000</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.0</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r238_235t</name>
+      <value>0.003087</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.016</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r233_235t</name>
+      <value>0.99464</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.016</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r233_236t</name>
+      <value>0.00</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.00</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r235_205t</name>
+      <value>100.180030407097</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.0041</oneSigma>
+    </ValueModel>
+  </ratios>
+  <isotopeConcentrations>
+    <ValueModel>
+      <name>concPb205t</name>
+      <value>0.00000000000988366855861366</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.01</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>concU235t</name>
+      <value>0.000000000990146216735586</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.01</oneSigma>
+    </ValueModel>
+  </isotopeConcentrations>
+</Tracer>

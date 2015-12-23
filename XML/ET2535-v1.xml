@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+      This XML contains the contents of an EARTHTIME tracer.
+
+      Copyright 2006-2008 EARTHTIME
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+
+      Website: www.earth-time.org
+
+      Created: 1.January.2008
+
+-->
+<Tracer xmlns="http://www.earth-time.org"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.earth-time.org
+                            http://www.earth-time.org/projects/upb/public_data/XSD/TracerXMLSchema.xsd">
+
+  <tracerName>ET2535</tracerName>
+  <versionNumber>1</versionNumber>
+  <tracerType>mixed 202-205-233-235</tracerType>
+  <labName>EARTHTIME</labName>
+  <dateCertified>2008-01-01</dateCertified>
+  <ratios>
+    <ValueModel>
+      <name>r206_204t</name>
+      <value>3.36668548197461</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.1</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r207_206t</name>
+      <value>0.805217163042787</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.03</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r206_208t</name>
+      <value>0.505191717253154</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.03</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r206_205t</name>
+      <value>0.000298938528959878</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.03</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r207_205t</name>
+      <value>0.000240710434213257</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.03</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r208_205t</name>
+      <value>0.00059173283874343</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.3</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r202_205t</name>
+      <value>0.99989</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.01</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r238_235t</name>
+      <value>0.003087</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.1</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r233_235t</name>
+      <value>0.99464</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.01</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r233_236t</name>
+      <value>0.000</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.0</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>r235_205t</name>
+      <value>100.18</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.03</oneSigma>
+    </ValueModel>
+  </ratios>
+  <isotopeConcentrations>
+    <ValueModel>
+      <name>concPb205t</name>
+      <value>0.00000000000993073599832803</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.03</oneSigma>
+    </ValueModel>
+    <ValueModel>
+      <name>concU235t</name>
+      <value>0.000000000995258361752435</value>
+      <uncertaintyType>PCT</uncertaintyType>
+      <oneSigma>0.03</oneSigma>
+    </ValueModel>
+  </isotopeConcentrations>
+</Tracer>
