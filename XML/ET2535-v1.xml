@@ -2,7 +2,7 @@
 <!--
       This XML contains the contents of an EARTHTIME tracer.
 
-      Copyright 2006-2008 EARTHTIME
+      Copyright 2006-2016 EARTHTIME
 
       Licensed under the Apache License, Version 2.0 (the "License");
       you may not use this file except in compliance with the License.
@@ -21,11 +21,11 @@
       Created: 1.January.2008
 
 -->
-<Tracer xmlns="http://www.earth-time.org"
+<Tracer xmlns="https://raw.githubusercontent.com/EARTHTIME/Schema"
         xmlns:xs="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.earth-time.org
-                            http://www.earth-time.org/projects/upb/public_data/XSD/TracerXMLSchema.xsd">
+        xsi:schemaLocation="https://raw.githubusercontent.com/EARTHTIME/Schema
+                            https://raw.githubusercontent.com/EARTHTIME/Schema/master/TracerXMLSchema.xsd">
 
   <tracerName>ET2535</tracerName>
   <versionNumber>1</versionNumber>
